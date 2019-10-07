@@ -33,9 +33,9 @@ def selection_sort(arr):
 
 
 def bubble_sort(arr):
-  swapped = False
-  
   for _ in arr:
+    swapped = False
+    
     for i in range(len(arr)-1):
       if arr[i] > arr[i+1]:
         arr[i], arr[i+1] = arr[i+1], arr[i]
